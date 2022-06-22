@@ -1,0 +1,167 @@
+body{
+    background-color: #f5d9d5;
+    font-family: "Nunito",sans-serif;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+}
+
+#mainNavbar .navbar-brand{
+    color:#ea1c2c;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link{
+    color:white;
+}
+
+#mainNavbar .nav-link:hover{
+    color:#ea1c2c;
+}
+
+#headingGroup span{
+    color:#ea1c2c;
+}
+
+#headingGroup h1{
+    font-weight:100;
+    font-size: 4rem;
+}
+
+.blurb h2{
+    color:#ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    color:#f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height:2;
+}
+
+.blurb ul{
+    color:#f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height:2;
+}
+
+.blurb span{
+    color:#ea1c2c;
+    font-weight: 125;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text-primary {
+    color: #EA1C2C !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+#footerLink li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#footerLink .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+#icon li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.text-secondary {
+    color: #f498b8 !important;
+}
+
+#icon .sr-only {
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+#footerLink a {
+    color: #EA1C2C;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.navbar.scrolled{
+    background-color: rgb(222,192,222);
+    
+}
+
+
+
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight:300px;
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:1100px){
+    .blurb h2{
+        font-weight: 85;
+        font-size: 2.25rem;
+    }
+    .blurb p{
+        font-weight: 100;
+        font-size: 1.125rem;
+        line-height:1.75;
+    }
+}
+
+@media (min-width: 768px){
+    .align-items-md-center {
+        align-items: center !important;
+    }
+    .justify-content-md-between {
+        justify-content: space-between !important;
+    }
+    .flex-md-row {
+        flex-direction: row !important;
+    }
+    .d-flex {
+        display: flex !important;
+    }
+}
+
+
